@@ -4,10 +4,11 @@
 #include <QMainWindow>
 
 namespace Ui {
-    class MainWindow;
+class MainWindow;
 }
 
-class MainWindow : public QMainWindow {
+class MainWindow : public QMainWindow
+{
     Q_OBJECT
 
 public:
@@ -18,4 +19,4 @@ private:
     Ui::MainWindow *ui;
 };
 
-#endif
+#endif // MAINWINDOW_H
